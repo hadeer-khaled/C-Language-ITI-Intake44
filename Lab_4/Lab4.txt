@@ -1,0 +1,26 @@
+Day 4:
+======
+
+Answer the following questions:
+--------------------------------
+- Calculate average of each column in a 2D Array.
+
+- C Program to add two matrix and put the result in a third one, then print the result.
+
+- Receive character by character and then place the string terminator upon pressing enter, then display the string.
+
+- C Program to take char and displays if it is "Normal or Extended key" along with its Ascii value.
+
+- C Program to take firstName and lastName from user, then displays fullName.
+
+- Highlight Menu: New Colored Menu "with Arrows"
+
+- C Program to Find the Frequency of Characters in a String
+
+- C Program to Copy String Without Using strcpy()
+
+- C Program to Find the Length of a String without Using strlen()
+
+- C Program to Remove all Characters in a String Except Alphabet.
+
+- C Program to Covert all Characters in a String to Capital Case.

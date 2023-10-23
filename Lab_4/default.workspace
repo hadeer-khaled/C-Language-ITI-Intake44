@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Q6_Menu/Q6_Menu.cbp" />
+		<Project filename="Q5_Concate/Q5_Concate.cbp" />
+		<Project filename="Q6_CharFreq/Q6_CharFreq.cbp" />
+		<Project filename="Q4_Arrows/Q4_Arrows.cbp" />
+		<Project filename="Q8_CopyString/Q8_CopyString.cbp" />
+		<Project filename="Q9_StrLen/Q9_StrLen.cbp" />
+		<Project filename="Q10_RemoveFromString/Q10_RemoveFromString.cbp" />
+		<Project filename="Q11_CapitalCase/Q11_CapitalCase.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,257 @@
+#--------------------------- Task 1-------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+#define ROWS  3
+#define COLM  4
+
+int main()
+{
+
+    int arr [ROWS][COLM] = {{1,2,3,4} , {5,6,7,8} , {9,10,11,12} } ;
+    int sum = 0 ;
+    float avg = 0 ;
+    for(int col = 0 ; col < COLM ; col++) {
+            for(int row = 0 ; row < ROWS ; row++){
+                sum +=arr[row][col];
+            }
+            avg = (float)sum / ROWS;
+            printf("The Average of %d  = %.2f \n" ,col, avg);
+            sum = 0 ;
+        }
+
+    return 0;
+}
+#--------------------------- Task 2-------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+#define ROWS  2
+#define COLM  2
+
+int main()
+{
+    int matrix_1 [ROWS][COLM] = {{1,2} , {5,6,}  } ;
+
+    int matrix_2 [ROWS][COLM] = {{1,1} , {1,1}  } ;
+
+    int matrix_3 [ROWS][COLM] = {0} ;
+
+    for(int i  =0 ; i < ROWS ; i++){
+        for(int j = 0 ; j<COLM ; j++){
+            matrix_3[i][j] = matrix_1[i][j]  + matrix_2[i][j]  ;
+        }
+    }
+    for(int i  =0 ; i < ROWS ; i++){
+        for(int j = 0 ; j<COLM ; j++){
+            printf("%d " , matrix_3[i][j]) ;
+        }
+        printf("\n");
+    }
+
+
+    return 0;
+}
+
+#--------------------------- Task 3 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+#define SIZE 100
+int main()
+{
+    /*int x = ' ';
+    printf("Enter characters: ");
+    scanf("%d" , &x);
+
+    char string[SIZE] ;
+    int i = 0 ;
+    while(x != '\n'){
+        x = getchar();
+        string[i] = x;
+    }
+    for(int i =0 ,)
+    return 0;*/
+
+    char arr[SIZE];
+
+    printf("Enter a sentence: ");
+    scanf(" %60[^\n]", arr);
+
+    printf("%s", arr);
+
+}
+
+#--------------------------- Tasl k -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char x = ' ';
+    x = getch();
+    //printf("%d", x);
+    if( -32 == x )
+    {
+        x = getch();
+        printf("Extended Key and its key is %d", x);
+        /* 72 up
+            80 down
+            77 right
+            75 left */
+
+    }
+
+    else
+    {
+        printf("Normal Key");
+    }
+
+}
+#--------------------------- Task 5 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f_name[20] ;
+    char l_name[20] ;
+    char full_name[40] ;
+
+    printf("Enter the first name: ");
+    scanf("%s" ,f_name );
+
+    printf("Enter the last name: ");
+    scanf("%s" ,l_name );
+
+    int i = 0 ;
+    int j = 0 ;
+    while(f_name[i]!= '\0'){
+        full_name[i] = f_name[i];
+        i++;
+    }
+    while(l_name[j]!= '\0'){
+        full_name[i] = l_name[j];
+        i++;
+        j++;
+    }
+    full_name[i] = '\0';
+
+    printf("Full Name: %s\n", full_name);
+    return 0;
+}
+
+#--------------------------- Task 6 -------------------------------
+هبعته بروجيكت لوحده
+#--------------------------- Task 7 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char str[50]= "lannguageee";
+    int freqArray[127] = {0};
+
+
+    int i = 0 ;
+    while(str[i] != '\0') {
+        freqArray[(int)str[i]]++;
+        i++ ;
+    }
+
+
+    printf("Frequency of each character: \n");
+    for (int i = 0; i < 127; i++) {
+        if (freqArray[i] > 0) {
+            printf("%c: %d\n", (char)i, freqArray[i]);
+        }
+    }
+
+    return 0;
+}
+#--------------------------- Task 8 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char str1[10] = "hadeer";
+    char str2[10] ;
+
+    int i = 0 ;
+    while(str1[i] != '\0'){
+
+          str2[i] = str1[i];
+          i++ ;
+    }
+    str2[i] = '\0';  // to add the null terminator
+
+    printf("%s" , str2);
+    return 0;
+}
+
+#--------------------------- Task 9 -------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char str1[10] = "hadeer";
+
+    int i = 0 ;
+    while(str1[i] != '\0'){
+          i++ ;
+    }
+    printf("the lenght of string = %d" , i);
+
+    return 0;
+}
+
+#--------------------------- Task 10 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char str1[10] = "h%ad@ee/r";
+    char newString[10];
+
+    int i = 0;
+    int j = 0;
+
+    while (str1[i] != '\0') {
+        if ((str1[i] >= 'a' && str1[i] <= 'z') || (str1[i] >= 'A' && str1[i] <= 'Z')) {
+            newString[j] = str1[i];
+            j++;
+        }
+        i++;
+    }
+
+    newString[j] = '\0';
+
+    printf("The old string = %s\n", str1);
+    printf("The new string = %s\n", newString);
+
+    return 0;
+}
+#--------------------------- Task 11 -------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char string[10] = "hadeEr";
+    int i = 0;
+
+    while (string[i] != '\0') {
+        if (!((string[i] >= 'a' && string[i] <= 'z') || (string[i] >= 'A' && string[i] <= 'Z'))) {
+            printf("Invalid Input\n");
+            return 1;
+        } else if (string[i] >= 'a' && string[i] <= 'z') {
+            string[i] = string[i] - 32;
+        } else {
+            string[i] = string[i];
+        }
+        i++;
+    }
+
+    printf("Capitalized String: %s\n", string);
+
+    return 0;
+}
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1698062686 source:h:\3) c\labs\lab_4\q6_menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<dos.h>
+	<dir.h>
+	"helperFunctions.h"
+
+1698062708 source:h:\3) c\labs\lab_4\q6_menu\helperfunctions.c
+	<windows.h>
+	<time.h>
+	<dos.h>
+	<dir.h>
+
+1698061983 h:\3) c\labs\lab_4\q6_menu\helperfunctions.h
+
