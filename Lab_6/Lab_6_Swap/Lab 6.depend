@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698137832 source:h:\3) c\labs\lab 6\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1698138409 source:h:\3) c\labs\lab 6\swap_method2.c
+	<stdio.h>
+	<stdlib.h>
+
