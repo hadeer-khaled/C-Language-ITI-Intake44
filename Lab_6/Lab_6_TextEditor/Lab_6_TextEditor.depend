@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1698188771 source:h:\3) c\labs\lab_6_texteditor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+	<dos.h>
+	<dir.h>
+
+1698180494 source:h:\3) c\labs\lab_6_texteditor\test.c
+	<windows.h>
+	<stdio.h>
+
